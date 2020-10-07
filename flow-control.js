@@ -37,7 +37,6 @@ function switchAge(age) {
     case age === 13 || age === 14 || age === 15 || age === 16 || age === 17 || age === 18 || age === 19 :
     return "You are a teenager"
     break;
-    default:
-    return "You have an age"
+    default: "You have an age"
     }
 }
